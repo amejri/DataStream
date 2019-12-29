@@ -1,0 +1,6 @@
+[2019-01-23 11:06:04,539] INFO Accepted socket connection from /127.0.0.1:56972 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2019-01-23 11:06:04,542] INFO Client attempting to establish new session at /127.0.0.1:56972 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-01-23 11:06:04,564] INFO Established session 0x100000f83650004 with negotiated timeout 30000 for client /127.0.0.1:56972 (org.apache.zookeeper.server.ZooKeeperServer)
+[2019-01-23 11:06:04,748] INFO Got user-level KeeperException when processing sessionid:0x100000f83650004 type:setData cxid:0x4 zxid:0x93 txntype:-1 reqpath:n/a Error Path:/config/topics/empty-stations Error:KeeperErrorCode = NoNode for /config/topics/empty-stations (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-01-23 11:06:04,859] INFO Processed session termination for sessionid: 0x100000f83650004 (org.apache.zookeeper.server.PrepRequestProcessor)
+[2019-01-23 11:06:04,897] INFO Closed socket connection for client /127.0.0.1:56972 which had sessionid 0x100000f83650004 (org.apache.zookeeper.server.NIOServerCnxn)
